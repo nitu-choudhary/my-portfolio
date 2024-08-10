@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitu | Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome cdn font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-header" id="home">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-n"></i>
+                    <div class="logo-text">Nitu Choudhary</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#side-projects">Side Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/image.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm a <span class="input">Blockchain Developer</span></h5>
+                    <h1>Nitu Choudhary</h1>
+                    <p> As a dedicated Software Engineer and Blockchain Developer, I bring a unique blend of traditional software development expertise and cutting-edge blockchain knowledge to the table. With a Master’s in Computer Science and over three years of hands-on experience, I have honed my skills in backend development, microservices architecture, and smart contract development. My passion for decentralized technologies has driven me to develop and deploy full-stack dApps, explore interoperable blockchain frameworks, and understand the potential of scaling solutions like zkRollups. I am eager to contribute to innovative projects that push the boundaries of what technology can achieve, especially in the Web3 and blockchain space.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#contact" class="btn active">Let's Connect</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/nitu-choudhary/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/nitu-choudhary"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="work-experience">
+        <div class="wrapper">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p>April 2022 – March 2023 | Nodal Exchange LLC, Vienna, USA</p>
+                <ul>
+                    <li>Designed and implemented a volume unit expansion feature in a trading application using Java and Spring Boot, significantly improving the client experience.</li>
+                    <li>Collaborated on cross-team integration of Java microservices using the Spring framework and Talend applications, enhancing company-wide security through Vault integration.</li>
+                    <li>Contributed to team productivity by suggesting and implementing efficient design patterns while refactoring legacy services and introducing new features.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Software Development Engineer</h3>
+                <p>August 2020 – April 2022 | Amazon Web Services, Arlington, USA</p>
+                <ul>
+                    <li>Led the development and testing of a billing synchronization validation feature using Java, Spring Boot, ReactJS, and TestNG, reducing invoice validation time from hours to seconds.</li>
+                    <li>Conducted a thorough security review, including threat modeling and issue resolution, securing essential approval for service launches in air-gapped regions.</li>
+                    <li>Developed a reporting dashboard that enhanced leadership's visibility into CI/CD and service parity across regions, automating ETL processes with AWS services.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Software Engineer Intern</h3>
+                <p>June 2019 – August 2019 | Cloudistics, Inc, Reston, USA</p>
+                <ul>
+                    <li>Researched and evaluated an open-source network monitoring solution for potential inclusion in the company’s product offering, contributing to strategic decision-making.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="side-projects">
+        <div class="wrapper">
+            <h2>Side Projects</h2>
+            <div class="project">
+                <h3>Blockchain Donation Platform</h3>
+                <p>2024 | Toronto, Canada</p>
+                <ul>
+                    <li>Developed and deployed a decentralized platform on the Base network for disaster relief campaigns, leveraging blockchain for transparency and accountability in fund distribution.</li>
+                    <li>Integrated Stripe USDC and Coinbase Wallet for secure donation processing, enhancing the platform’s utility for donors and recipients alike.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>NFT Airdrop Bot</h3>
+                <p>2024 | Optimism Blockchain</p>
+                <ul>
+                    <li>Built an automated bot to airdrop NFTs on the Optimism blockchain, utilizing Solidity and Hardhat for smart contract deployment and Ethers.js for interaction with the Ethereum network.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Blood Donation NFT Platform</h3>
+                <p>2024 | Toronto, Canada</p>
+                <ul>
+                    <li>Created a platform that incentivizes blood donors with NFTs, recognizing their contributions with digital assets that can be used for social credits, ensuring HIPAA compliance in data handling.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="wrapper">
+            <h2>Let's Collaborate</h2>
+            <p>I’m always excited to connect with like-minded professionals, potential collaborators, and those who are passionate about technology. Whether you have a project in mind, need some advice, or just want to chat about the latest trends in blockchain and software development, feel free to reach out. Let's turn ideas into reality together!
+
+                You can contact me directly via email at <a href="mailto:nitu.choudhary@proton.me">nitu.choudhary@proton.me</a>. I look forward to hearing from you!</p>
+        </div>
+    </section>
+
+    <!---typed js for typing text effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function() {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        var typed = new Typed(".input", {
+            strings: ["Blockchain Developer", "Smart Contract Developer", "Software Engineer"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>
